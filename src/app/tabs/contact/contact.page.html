@@ -1,0 +1,79 @@
+<ion-header>
+  <ion-toolbar>
+    
+    <ion-buttons slot="start">
+      <ion-back-button  defaultHref="/tab/about"></ion-back-button>
+    </ion-buttons>
+    <ion-searchbar showCancelButton cancelButtonText="Custom Cancel"></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-content padding>
+      <!-- <ion-button (click)="onClick()">
+          open detail window
+        </ion-button> -->
+        <!-- <ion-slides pager="true" [options]="slideOpts">
+            <ion-slide>
+              <h1>Slide 1</h1>
+            </ion-slide>
+            <ion-slide>
+              <h1>Slide 2</h1>
+            </ion-slide>
+            <ion-slide>
+              <h1>Slide 3</h1>
+            </ion-slide>
+          </ion-slides> -->
+      
+    <ion-tabs>
+        <ion-tab-bar slot="top" >
+          <ion-tab-button tab="home">
+            <ion-icon name="flash"></ion-icon>
+            <ion-label>Tab One</ion-label>
+          </ion-tab-button>
+          <ion-tab-button tab="about">
+            <ion-icon name="apps"></ion-icon>
+            <ion-label>Tab Two</ion-label>
+          </ion-tab-button>
+          <ion-tab-button tab="list">
+            <ion-icon name="send"></ion-icon>
+            <ion-label>Tab Three</ion-label>
+          </ion-tab-button>
+          <ion-tab-button tab="contact">
+              <ion-icon name="flash"></ion-icon>
+              <ion-label>Tab One</ion-label>
+            </ion-tab-button>
+            <ion-tab-button tab="about">
+              <ion-icon name="apps"></ion-icon>
+              <ion-label>Tab Two</ion-label>
+            </ion-tab-button>
+           
+            <ion-tab-button tab="home">
+                <ion-icon name="flash"></ion-icon>
+                <ion-label>Tab One</ion-label>
+              </ion-tab-button>
+
+              <ion-tab-button tab="list">
+                <ion-icon name="apps"></ion-icon>
+                <ion-label>Tab Two</ion-label>
+              </ion-tab-button>
+              <ion-tab-button tab="cotact">
+                  <ion-icon name="flash"></ion-icon>
+                  <ion-label>Tab One</ion-label>
+                </ion-tab-button>
+                <ion-tab-button tab="about">
+                  <ion-icon name="apps"></ion-icon>
+                  <ion-label>Tab Two</ion-label>
+                </ion-tab-button>
+               
+                <ion-tab-button tab="cart">
+                    <ion-icon name="flash"></ion-icon>
+                    <ion-label>Tab One</ion-label>
+                  </ion-tab-button>
+    
+                  <ion-tab-button tab="offer">
+                    <ion-icon name="apps"></ion-icon>
+                    <ion-label>Tab Two</ion-label>
+                  </ion-tab-button> 
+        </ion-tab-bar>
+      </ion-tabs>
+</ion-content>
